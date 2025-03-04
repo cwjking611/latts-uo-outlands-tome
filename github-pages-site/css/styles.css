@@ -1,31 +1,44 @@
 body {
-    background-color: #f4f4f4; /* Light background for readability */
-    font-family: 'Garamond', serif; /* Medieval-style font */
-    color: #333; /* Dark text for contrast */
+    font-family: 'Cinzel', serif;
+    background-color: #D9C2A7;
+    color: #3C2F2F;
+    margin: 0;
+    padding: 0;
     line-height: 1.6; /* Improved readability */
 }
 
 header {
-    background-color: #8B4513; /* SaddleBrown for a medieval feel */
-    color: #fff; /* White text for contrast */
+    background-color: #B89C5A;
     padding: 20px;
+    text-align: center;
+    color: #fff; /* White text for contrast */
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.5em;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    background-color: #4A704A;
     text-align: center;
 }
 
-nav {
-    background-color: #654321; /* Darker brown for navigation */
-    padding: 10px;
+nav ul li {
+    display: inline;
+    margin: 0 15px;
 }
 
-nav a {
-    color: #fff; /* White text for links */
-    text-decoration: none; /* Remove underline */
-    padding: 10px 15px;
-    transition: background-color 0.3s; /* Smooth hover effect */
+nav ul li a {
+    text-decoration: none;
+    color: #D9C2A7;
+    font-weight: bold;
 }
 
-nav a:hover {
-    background-color: #8B4513; /* Change background on hover */
+nav ul li a:hover {
+    color: #8A2A2A;
 }
 
 main {
@@ -37,13 +50,13 @@ h1, h2, h3 {
 }
 
 footer {
-    background-color: #654321; /* Dark footer */
-    color: #fff; /* White text for footer */
+    background-color: #5A6A72;
+    color: #D9C2A7;
     text-align: center;
     padding: 10px;
-    position: relative;
-    bottom: 0;
+    position: fixed;
     width: 100%;
+    bottom: 0;
 }
 
 .pixel-art-banner {
@@ -74,4 +87,9 @@ footer {
     border: 1px solid #ccc; /* Light border for separation */
     padding: 20px;
     border-radius: 5px; /* Rounded corners */
+}
+
+.banner {
+    width: 100%;
+    height: auto;
 }

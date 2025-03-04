@@ -24,6 +24,17 @@ To set up the project locally, follow these steps:
 2. Navigate to the project directory.
 3. Open `index.html` in a web browser to view the site.
 
+## Enabling GitHub Pages
+To enable GitHub Pages for this site, follow these steps:
+
+1. Push your local repository to GitHub.
+2. Go to the repository on GitHub.
+3. Click on the "Settings" tab.
+4. Scroll down to the "Pages" section in the left sidebar.
+5. Under "Source," select the branch you want to use (e.g., `main` or `medieval-theme`) and the root folder (`/`).
+6. Click "Save."
+7. GitHub Pages will provide a URL where your site is published. It may take a few minutes for the site to become available.
+
 ## Contributing
 Contributions to enhance the content or design of the site are welcome. Please submit a pull request with your proposed changes.
 
